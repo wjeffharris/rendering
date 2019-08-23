@@ -1,11 +1,20 @@
 
+function deckOfCards(deck){
+    return `
+    <div class="text-center mt-5">
+        <div class="row">
+            <div class =col-lg-4" style ="height: 200px; width: 100px; background-color: blue;">
+
+            </div>
+        </div>
+    </div>
+`
+
+}
+
 function renderPokerHand(pokerHand) {
     // HINT: You can use <img /> tags that point to the card images in the /cards folder
-    return `
-        <div class="text-center mt-5">
-            <code>${JSON.stringify(pokerHand)}</code>
-        </div>
-    `
+    return pokerHand.map(deckOfCards).join('')
 }
 
 function pokerHand() {

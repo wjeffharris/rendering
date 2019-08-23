@@ -2,7 +2,23 @@
 function renderAlbums(albums) {
     return `
         <div class="text-center mt-5">
-            <code>${JSON.stringify(albums)}</code>
+            <h1>CREED</h1>
+            <div class="container">
+            <div class="media">
+
+
+            <div class="media-left media-top">
+                <img class="My Own Prison" src="https://images-na.ssl-images-amazon.com/images/I/51Y5ZCMV2QL.jpg" alt="prison">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">My Own Prison</h4>
+              <ul>
+                    <li> Torn </li>
+
+              </ul>
+            </div>
+            </div>
         </div>
     `
 }
